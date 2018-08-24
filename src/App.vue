@@ -1,18 +1,11 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-toolbar app color="primary" dark>
       <v-toolbar-title v-text="title"></v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn icon>
-        <v-icon>send</v-icon>
-      </v-btn>
     </v-toolbar>
     <v-content>
       <Feedback :questions="questions" comments/>
     </v-content>
-    <v-footer app>
-      <span>&copy; 2017</span>
-    </v-footer>
   </v-app>
 </template>
 
